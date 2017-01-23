@@ -28,3 +28,8 @@ gems:
 exclude:
   - Gemfile
   - Gemfile.lock
+
+# Theme settings
+google_analytics: UA-90723295-1
+disqus:
+  shortname: my_disqus_shortname
