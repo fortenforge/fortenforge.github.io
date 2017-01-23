@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "MIT Mystery Hunt 2017 [Part 2]"
+title:  "MIT Mystery Hunt 2017 [Part 2/3]"
 date:   2017-01-21 12:12:44 -0500
-categories:
+categories: mystery_hunt puzzlehunts
 ---
 
 *This is part 2 of a series of posts about the MIT Mystery Hunt. You can find [part 1]({{ site.baseurl }}{% post_url 2017-01-20-mystery-hunt-2017-part-1 %}
@@ -67,3 +67,5 @@ In the end, I think this is an issue where there is actually a lot less disagree
 * somewhere between 4 - 14 other teams get to complete the runaround
 
 The problem isn't agreeing on these goals: it's accomplishing them. Events on the scale of the Mystery Hunt are wild, unpredictable beasts. Ultimately, writing teams need to set reasonable goals, make back-up plans, and hope for the best.
+
+*You can find my final post on the hunt [here]({{ site.baseurl }}{% post_url 2017-01-22-mystery-hunt-2017-part-3 %}).*
