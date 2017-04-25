@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "How to Solve a Crackme"
+title:  "AlexCTF 2017: Catalyst System (150 pts)"
 date:   2017-02-06 3:12:44 -0500
 categories: ctfs re
 ---
