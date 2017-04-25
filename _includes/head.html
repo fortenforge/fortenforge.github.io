@@ -10,6 +10,13 @@
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}" href="{{ "/feed.xml" | relative_url }}">
 
+  <link rel="icon" type="image/png" href="/assets/fnf/1.png">
+  <script>
+    if (Math.random() < 0.5) {
+      document.querySelector("link[href='/assets/fnf/1.png']").href = "/assets/fnf/2.png";
+    }
+  </script>
+
   {% if jekyll.environment == 'production' and site.google_analytics %}
   {% include google-analytics.html %}
   {% endif %}
