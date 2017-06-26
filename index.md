@@ -1,6 +1,20 @@
 ---
-# You don't need to edit this file, it's empty on purpose.
-# Edit theme's home layout instead if you wanna make some changes
-# See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-layout: home
+layout: page
 ---
+{% for post in site.posts %}
+  <h1 class="post-title"> {{ post.title }} </h1>
+  <p><span class="post-date"> {{ post.date | date: "%b %d, %Y" }} </span></p>
+
+  <div>
+  {% if post.content contains '<!--more-->' %}
+    {{ post.content | split:'<!--more-->' | first }}
+
+  {% else %}
+    {{ post.content }}
+  {% endif %}
+
+  <a href="{{ BASE_PATH }}{{ post.url }}#pi"><span class="read-more">Read more ...</span></a>
+  </div>
+
+  <br />
+{% endfor %}
