@@ -13,6 +13,8 @@ One common workaround to this issue is to setup a personal access point wired in
 
 I'm not much of a tinkerer, and the resulting process ended up being fairly involved. It wouldn't have been feasible without the help of the many people who built custom drivers and documented the steps they took online. This post is my form of repayment; hopefully it will be useful for someone in the future.
 
+<!--more-->
+
 ## Equipment
 
 Part of the reason this was so complicated was that there were many versions and different models of the hardware involved, and different online guides relied on different components. Here's the equipment I was working with:

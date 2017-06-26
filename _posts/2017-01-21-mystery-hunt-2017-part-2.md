@@ -24,6 +24,8 @@ This year's hunt had close to 160 total puzzles and 15 metas, about the same as 
 
 If it wasn't the number of puzzles, it must be their difficulty, right? Puzzles that appeared in the character metas were meant to be easier than average, an intentional throwback to the 2015 hunt which included "fish" puzzles designed to be about 1/3 the difficulty of a normal Mystery Hunt puzzle. However, the number of fish puzzles and character puzzles was roughly the same, and the hunt had plenty of difficult puzzles.
 
+<!--more-->
+
 The problem wasn't so much a lack of hard puzzles as a misassignment of puzzles to metas which often had too much flavortext and lent themselves too easily to backsolving. In Random's 2015 hunt, all the fish puzzles comprised [one (very large) meta](http://web.mit.edu/puzzle/www/2015/puzzle/school_of_fish_meta/), leaving the other 11ish metas filled which much more difficult puzzles. (In particular, the final four [tower metas](http://web.mit.edu/puzzle/www/2015/puzzle/colorful_tower_meta/) had much *harder* puzzles than average, and took a lot longer to crack). In this year's hunt, the easy puzzles were distributed among 6 different character metas which were themselves very straightforward.
 
 Although the puzzles in the quest metas were generally harder, there were often enough easy puzzles that could be solved to crack the meta. The truly hard puzzles were either backsolved or just ignored completely as they didn't increase the characters' levels. The quest metas themselves were nice and involved some clever constructions, but these were often undermined by too much flavortext which pointed towards the correct approach too quickly.

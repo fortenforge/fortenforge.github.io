@@ -13,6 +13,8 @@ I'll use this last post to talk about the events and the final runaround.
 
 First, the events. There were four of them based on Charisma, Constitution, Strength + Dexterity, and Wisdom + Intelligence. The Charisma event was some sort of speed-dating activity, the Constitution event involved [massive bobble-heads](https://www.youtube.com/watch?v=BQAQCOik6DE&t=59m48s) that were reused from the [Crossing the Charles](https://mit2016.mit.edu/movingday/competition) procession, the Strength + Dexterity event was a [human-sized crossover](https://www.youtube.com/watch?v=BQAQCOik6DE&t=61m22s) between Hungry Hungry Hippos and Bananagrams, and the Wisdom + Intelligence event was a pub quiz with a twist.
 
+<!--more-->
+
 Because our team solved all the metas before the last two events were scheduled, we did these as one large group in a private event scheduled by Setec. The pub quiz was interesting enough that I want to describe it in some more detail: In essence, there were some number of rounds each with 4 trivia questions coming from different categories. The questions were not trivial, but they were easy enough that *someone* was bound to know the answer in a crowd of 60 people. The answers to the first round of questions were (in some order):
 
 * Thomas Jefferson (in the category of U.S. Presidents)

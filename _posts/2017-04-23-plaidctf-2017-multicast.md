@@ -10,6 +10,8 @@ PlaidCTF, PPP's annual capture the flag, was held this past weekend. Because of 
 
 Multicast was one of the earliest challenges released. We were given two files: a sage program called `generate.sage` and a file with 20 large integers called `data.txt`. You can find both of these files and my exploit [here](https://github.com/TechSecCTF/writeups/tree/master/plaidctf2017/multicast).
 
+<!--more-->
+
 This was `generate.sage`:
 
 ```

@@ -9,6 +9,8 @@ Last weekend was DEF CON Quals 2017, the annual qualifier round to the DEF CON C
 
 My friend Ray [already recapped](https://wangray.github.io/2017/05/03/2017/DEF%20CON%20CTF%20Qualifier%202017/) most of what went down during the weekend on his blog, so I don't really feel the need to repeat any of it. Instead, let me tell the story of my past week entirely through pictures:
 
+<!--more-->
+
 ![a](/assets/defconquals2017/a.png)
 
 ![b](/assets/defconquals2017/b.png)
