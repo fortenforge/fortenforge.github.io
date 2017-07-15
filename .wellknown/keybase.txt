@@ -1,0 +1,55 @@
+==================================================================
+https://keybase.io/fortenforge
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://fortenforge.github.io
+  * I am fortenforge (https://keybase.io/fortenforge) on keybase.
+  * I have a public key ASB9qnoe3ooj8tBnpXXDdR_qrpa4tTSQT3Rh_yaJbRr8EAo
+
+To do so, I am signing this object:
+
+{
+    &quot;body&quot;: {
+        &quot;key&quot;: {
+            &quot;eldest_kid&quot;: &quot;01207daa7a1ede8a23f2d067a575c3751feaae96b8b534904f7461ff26896d1afc100a&quot;,
+            &quot;host&quot;: &quot;keybase.io&quot;,
+            &quot;kid&quot;: &quot;01207daa7a1ede8a23f2d067a575c3751feaae96b8b534904f7461ff26896d1afc100a&quot;,
+            &quot;uid&quot;: &quot;28864f8f907df95e5546a172d127a819&quot;,
+            &quot;username&quot;: &quot;fortenforge&quot;
+        },
+        &quot;merkle_root&quot;: {
+            &quot;ctime&quot;: 1500084365,
+            &quot;hash&quot;: &quot;cff70ae62085da5a9fc41aa91f94a60e3e3142f3b9bad0087c56fa92e2674c9645f3da508148b39a28fbb968ba70a9ad0976530d3e99e34f242b265cf1a07387&quot;,
+            &quot;hash_meta&quot;: &quot;ee4e6a0013afcf3cbe7ca4a36d4d1a9efaaa356117d526895e55496dfc060730&quot;,
+            &quot;seqno&quot;: 1233946
+        },
+        &quot;service&quot;: {
+            &quot;hostname&quot;: &quot;fortenforge.github.io&quot;,
+            &quot;protocol&quot;: &quot;https:&quot;
+        },
+        &quot;type&quot;: &quot;web_service_binding&quot;,
+        &quot;version&quot;: 1
+    },
+    &quot;client&quot;: {
+        &quot;name&quot;: &quot;keybase.io go client&quot;,
+        &quot;version&quot;: &quot;1.0.24&quot;
+    },
+    &quot;ctime&quot;: 1500084390,
+    &quot;expire_in&quot;: 504576000,
+    &quot;prev&quot;: &quot;320c7ba9ff6db86748ab94ecad470780d8a9a9bafb7344cf01947eaa2000a48d&quot;,
+    &quot;seqno&quot;: 16,
+    &quot;tag&quot;: &quot;signature&quot;
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgfap6Ht6KI/LQZ6V1w3Uf6q6WuLU0kE90Yf8miW0a/BAKp3BheWxvYWTFA1F7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTIwN2RhYTdhMWVkZThhMjNmMmQwNjdhNTc1YzM3NTFmZWFhZTk2YjhiNTM0OTA0Zjc0NjFmZjI2ODk2ZDFhZmMxMDBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwN2RhYTdhMWVkZThhMjNmMmQwNjdhNTc1YzM3NTFmZWFhZTk2YjhiNTM0OTA0Zjc0NjFmZjI2ODk2ZDFhZmMxMDBhIiwidWlkIjoiMjg4NjRmOGY5MDdkZjk1ZTU1NDZhMTcyZDEyN2E4MTkiLCJ1c2VybmFtZSI6ImZvcnRlbmZvcmdlIn0sIm1lcmtsZV9yb290Ijp7ImN0aW1lIjoxNTAwMDg0MzY1LCJoYXNoIjoiY2ZmNzBhZTYyMDg1ZGE1YTlmYzQxYWE5MWY5NGE2MGUzZTMxNDJmM2I5YmFkMDA4N2M1NmZhOTJlMjY3NGM5NjQ1ZjNkYTUwODE0OGIzOWEyOGZiYjk2OGJhNzBhOWFkMDk3NjUzMGQzZTk5ZTM0ZjI0MmIyNjVjZjFhMDczODciLCJoYXNoX21ldGEiOiJlZTRlNmEwMDEzYWZjZjNjYmU3Y2E0YTM2ZDRkMWE5ZWZhYWEzNTYxMTdkNTI2ODk1ZTU1NDk2ZGZjMDYwNzMwIiwic2Vxbm8iOjEyMzM5NDZ9LCJzZXJ2aWNlIjp7Imhvc3RuYW1lIjoiZm9ydGVuZm9yZ2UuZ2l0aHViLmlvIiwicHJvdG9jb2wiOiJodHRwczoifSwidHlwZSI6IndlYl9zZXJ2aWNlX2JpbmRpbmciLCJ2ZXJzaW9uIjoxfSwiY2xpZW50Ijp7Im5hbWUiOiJrZXliYXNlLmlvIGdvIGNsaWVudCIsInZlcnNpb24iOiIxLjAuMjQifSwiY3RpbWUiOjE1MDAwODQzOTAsImV4cGlyZV9pbiI6NTA0NTc2MDAwLCJwcmV2IjoiMzIwYzdiYTlmZjZkYjg2NzQ4YWI5NGVjYWQ0NzA3ODBkOGE5YTliYWZiNzM0NGNmMDE5NDdlYWEyMDAwYTQ4ZCIsInNlcW5vIjoxNiwidGFnIjoic2lnbmF0dXJlIn2jc2lnxEC1uoosBNhVQo4qutop8VDRbicyWhocCNeEOJjcrBnBEvMGtnFbXRvaaCClmk6K6/5q4FYBTBlM00JjLtC9ZboIqHNpZ190eXBlIKRoYXNogqR0eXBlCKV2YWx1ZcQg2UmF6bpAFJ6C9P5ZjCuStlz6Wtx1rouGXaDOzpVrDGGjdGFnzQICp3ZlcnNpb24B
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/fortenforge
+
+==================================================================
