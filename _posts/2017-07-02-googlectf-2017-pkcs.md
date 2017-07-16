@@ -71,7 +71,7 @@ There's actually one more condition that we've ignored so far: the padding strin
 ## The code
 You can find a simple python script to compute the signature [here](https://github.com/TechSecCTF/writeups/blob/master/googlectf2017/rsa_ctf_challenge/script.py). The key section is reproduced below:
 
-```
+{% highlight python %}
 # First compute the required end of message block
 asn_prefix = b'003020300c06082a864886f70d020505000410'
 md5_hash = hashlib.md5(b'challenge').hexdigest()
@@ -100,7 +100,7 @@ assert 0 not in signature[:-len(data)//2] # no zero byte until the asn prefix
 
 # Print out base64 version of "encrypted" signature
 print(base64.b64encode(int_to_bytes(x)).decode('utf-8'))
-```
+{% endhighlight %}
 
 The script produces the integer
 

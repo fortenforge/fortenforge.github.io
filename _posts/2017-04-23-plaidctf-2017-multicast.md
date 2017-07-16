@@ -14,7 +14,7 @@ Multicast was one of the earliest challenges released. We were given two files: 
 
 This was `generate.sage`:
 
-```
+{% highlight python %}
 nbits = 1024
 e = 5
 flag = open("flag.txt").read().strip()
@@ -43,7 +43,7 @@ for i in range(e):
     out.write(str(bi)+'\n')
     out.write(str(ci)+'\n')
     out.write(str(ni)+'\n')
-```
+{% endhighlight %}
 
 Essentially, a message \\(m\\) is encrypted using RSA and sent to each of \\(e = 5\\) individuals, each with a different RSA keypair. This is the setup for [Håstad's Broadcast Attack](https://en.wikipedia.org/wiki/Coppersmith%27s_attack#H.C3.A5stad.27s_broadcast_attack), a classic attack on RSA, which (like almost every RSA attack that shows up on CTFs) is described in detail in Boneh's paper [20 Years of Attacks on the RSA Cryptosystem](https://crypto.stanford.edu/~dabo/papers/RSA-survey.pdf).
 
@@ -97,7 +97,7 @@ Thus, we can find \\(m\\) using Coppersmith's method. (Actually Coppersmith's me
 
 [Sage](http://www.sagemath.org/) makes this attack trivial to implement. It only required 22 lines of code:
 
-```
+{% highlight python %}
 import binascii
 
 data = open('data.txt', 'r')
@@ -120,7 +120,7 @@ g = g.monic()
 roots = g.small_roots()
 
 print binascii.unhexlify(hex(int(roots[0]))[2:-1])
-```
+{% endhighlight %}
 
 After running for about 5 seconds, our program gives us the flag:
 

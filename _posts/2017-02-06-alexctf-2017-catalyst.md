@@ -81,14 +81,14 @@ sub_400c41:
 
 This subroutine is essentially just a series of checks equivalent to the following:
 
-```
+{% highlight python %}
 x = len(username)
 assert (x >> 2) << 2 == x
 y = x >> 2
 assert (y >> 2) << y != y
 assert (x >> 1) != 0
 assert y == 0
-```
+{% endhighlight %}
 
 This code checks that the length is divisible by 4, but not by 16, and that the length is greater than 8 but less than 16. This tells us that the length must be 12.
 
@@ -205,7 +205,7 @@ It then does this over and over again for the subsequent characters of the passw
 
 We can write a simple C program to seed the generator with the correct value and spit out the first few integers it produces:
 
-```
+{% highlight c %}
 #include <stdio.h>      /* printf, scanf, puts, NULL */
 #include <stdlib.h>     /* srand, rand */
 
@@ -222,7 +222,7 @@ int main ()
 
   return 0;
 }
-```
+{% endhighlight %}
 
 We then just need to add these to each of the constants and string the results together:
 
