@@ -1,5 +1,6 @@
 ---
 layout: default
+permalink: /archive
 ---
 
 <div class="home">

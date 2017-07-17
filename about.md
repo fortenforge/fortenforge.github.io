@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About
-permalink: /about/
+permalink: /about
 ---
 
 This site is my personal blog, where I hope to talk about completed puzzlehunts, CTFs, and personal projects or explorations.
@@ -9,4 +9,4 @@ This site is my personal blog, where I hope to talk about completed puzzlehunts,
 It was built with [Github Pages](https://pages.github.com/), [Jekyll](https://jekyllrb.com/), and [Hyde](http://hyde.getpoole.com/).
 
 <hr>
-<img src="/assets/fnf/fnf.png" style="max-width:25%; margin: auto">
+<img src="{{ site.baseurl }}/assets/fnf/fnf.png" style="max-width:25%; margin: auto">

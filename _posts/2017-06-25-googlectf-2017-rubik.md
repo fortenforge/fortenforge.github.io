@@ -14,7 +14,7 @@ We were given some [Rust code](https://github.com/TechSecCTF/writeups/blob/maste
 
 To talk about a series of moves that can be applied to a Rubik's Cube, most people use [Singmaster Notation](https://en.wikipedia.org/wiki/Rubik%27s_Cube#Move_notation). The six letters `R`, `L`, `U`, `D`, `F`, and `B` describe 90 degree clockwise turns to each of the six faces. A prime after a letter indicates a counter-clockwise turn. Finally, the letters `x`, `y`, and `z`, describe rotating the entire cube 90 degrees clockwise on the `R`, `U`, and `F` faces respectively. A prime after these letters describes the corresponding counter-clockwise rotation.
 
-![the six faces](/assets/rubik/singmaster.jpg)
+![the six faces]({{ site.baseurl }}/assets/rubik/singmaster.jpg)
 
 [This site](https://ruwix.com/the-rubiks-cube/notation/) allows you to apply a series of moves to a cube to explore the notation.
 

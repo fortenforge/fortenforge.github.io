@@ -11,34 +11,34 @@ My friend Ray [already recapped](https://wangray.github.io/2017/05/03/2017/DEF%2
 
 <!--more-->
 
-![a](/assets/defconquals2017/a.png)
+![a]({{ site.baseurl }}/assets/defconquals2017/a.png)
 
-![b](/assets/defconquals2017/b.png)
+![b]({{ site.baseurl }}/assets/defconquals2017/b.png)
 
-![c](/assets/defconquals2017/c.jpg)
+![c]({{ site.baseurl }}/assets/defconquals2017/c.jpg)
 
-![d](/assets/defconquals2017/d.png)
+![d]({{ site.baseurl }}/assets/defconquals2017/d.png)
 
-![e](/assets/defconquals2017/e.jpg)
+![e]({{ site.baseurl }}/assets/defconquals2017/e.jpg)
 
-![f](/assets/defconquals2017/f.png)
+![f]({{ site.baseurl }}/assets/defconquals2017/f.png)
 
-![g](/assets/defconquals2017/g.png)
+![g]({{ site.baseurl }}/assets/defconquals2017/g.png)
 
-![h](/assets/defconquals2017/h.jpg)
+![h]({{ site.baseurl }}/assets/defconquals2017/h.jpg)
 
-![i](/assets/defconquals2017/i.png)
+![i]({{ site.baseurl }}/assets/defconquals2017/i.png)
 
-![j](/assets/defconquals2017/j.jpg)
+![j]({{ site.baseurl }}/assets/defconquals2017/j.jpg)
 
-![k](/assets/defconquals2017/k.png)
+![k]({{ site.baseurl }}/assets/defconquals2017/k.png)
 
-![l](/assets/defconquals2017/l.png)
+![l]({{ site.baseurl }}/assets/defconquals2017/l.png)
 
-![m](/assets/defconquals2017/m.png)
+![m]({{ site.baseurl }}/assets/defconquals2017/m.png)
 
-![n](/assets/defconquals2017/n.png)
+![n]({{ site.baseurl }}/assets/defconquals2017/n.png)
 
-![o](/assets/defconquals2017/o.png)
+![o]({{ site.baseurl }}/assets/defconquals2017/o.png)
 
-![p](/assets/defconquals2017/p.png)
+![p]({{ site.baseurl }}/assets/defconquals2017/p.png)

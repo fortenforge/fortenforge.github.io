@@ -56,7 +56,7 @@ This hunt also had mini-events for each new character we rescued. I didn't do an
 
 After we finished all the events, we were directed to the final encounter between our characters and Mystereo. After some puzzling shenanigans culminating in a group hug, we successfully defeated him and were given a cardboard hexagon with runaround instructions directing us to the two-sided die, which we needed to escape from the game world.
 
-![the runaround]({{ site.url }}/assets/runaround_2017.jpg)
+![the runaround]({{ site.baseurl }}/assets/runaround_2017.jpg)
 
 The runaround began in lobby 10 and went east and east and east and east almost to the edge of MIT's campus. We found the coin next to [building E62](http://whereis.mit.edu/?go=E62) by one of the green, diamond-ish sculptures. (Actually we only found a "coin-shaped hole" seeing as Death and Mayhem already took the real coin).
 

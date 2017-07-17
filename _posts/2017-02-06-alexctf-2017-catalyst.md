@@ -5,23 +5,23 @@ date:   2017-02-06 3:12:44 -0500
 categories: ctfs re
 ---
 
-[AlexCTF](https://ctf.oddcoder.com) just finished this weekend and [our team](https://ctftime.org/team/24526) did pretty well, solving all but two of the challenges. In this post I'll talk about my solution to one of the reverse engineering challenges, called "Catalyst system." You can check out the raw binary [here]({{ site.url }}/assets/crackme/catalyst).
+[AlexCTF](https://ctf.oddcoder.com) just finished this weekend and [our team](https://ctftime.org/team/24526) did pretty well, solving all but two of the challenges. In this post I'll talk about my solution to one of the reverse engineering challenges, called "Catalyst system." You can check out the raw binary [here]({{ site.baseurl }}/assets/crackme/catalyst).
 
 <!--more-->
 
 Like most reverse engineering challenges, this binary was a "crackme," where the challenge is to find a password that causes the binary to give you the flag. When we ran the binary we saw this:
 
-![pretty colors]({{ site.url }}/assets/crackme/terminal_1.png)
+![pretty colors]({{ site.baseurl }}/assets/crackme/terminal_1.png)
 
 The "Loading" took a while to finish, but once it did it prompted us for a username and password. If you input a wrong pair, it exits immediately.
 
 I did most of my analysis using [Hopper](https://www.hopperapp.com/), an interactive dissasembler. The first thing I did was open Hopper, select the binary, and look at the "Strings" panel which displays all long runs of valid ASCII characters that it detects in the binary:
 
-![strings and things]({{ site.url }}/assets/crackme/3_checking_strings.png)
+![strings and things]({{ site.baseurl }}/assets/crackme/3_checking_strings.png)
 
 Clearly the string `your flag is ALEXCTF{` will be relevant. Hopper shows you where in the assembly the string is referenced and lets you jump to that point:
 
-![cross references]({{ site.url }}/assets/crackme/4_cross_references.png)
+![cross references]({{ site.baseurl }}/assets/crackme/4_cross_references.png)
 
 So if we ever get to this subroutine, the binary will just spit out the flag for us. Helpfully, Hopper also tells you which subroutines call this one, and let you jump to them. After jumping around a little bit, you get a pretty good sense of the control flow at work:
 
@@ -32,7 +32,7 @@ So if we ever get to this subroutine, the binary will just spit out the flag for
 
 You can see the four tests it runs here:
 
-![tests]({{ site.url}}/assets/crackme/5_find_call.png)
+![tests]({{ site.baseurl}}/assets/crackme/5_find_call.png)
 
 Our task is to read the four subroutines (`sub_400c9a`, `sub_400cdd`, `sub_4008f7`, and `sub_400977`) and figure out what they are testing so we can determine a valid username and password.
 
@@ -297,4 +297,4 @@ The username is stored at `[ss:rbp+var_28]` and the password at `[ss:rbp+var_30]
 
 Our flag is `ALEXCTF{1_t41d_y0u_y0u_ar3__gr34t__reverser__s33}`. This is confirmed by the binary:
 
-![done]({{ site.url }}/assets/crackme/terminal_2.png)
+![done]({{ site.baseurl }}/assets/crackme/terminal_2.png)

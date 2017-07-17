@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Puzzlehunts
+permalink: /puzzlehunts
 ---
 
 <div class="home">

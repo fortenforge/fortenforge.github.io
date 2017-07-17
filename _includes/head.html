@@ -11,19 +11,19 @@
   </title>
 
   <!-- CSS -->
-  <link rel="stylesheet" href="/public/css/poole.css">
-  <link rel="stylesheet" href="/public/css/syntax.css">
-  <link rel="stylesheet" href="/public/css/hyde.css">
+  <link rel="stylesheet" href="{{ site.baseurl }}/public/css/poole.css">
+  <link rel="stylesheet" href="{{ site.baseurl }}/public/css/syntax.css">
+  <link rel="stylesheet" href="{{ site.baseurl }}/public/css/hyde.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700|Elsie+Swash+Caps:900">
 
   <!-- RSS -->
   <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
 
   <!-- Favicon -->
-  <link rel="icon" type="image/png" href="/assets/fnf/1.png">
+  <link rel="icon" type="image/png" href="{{ site.baseurl }}/assets/fnf/1.png">
   <script>
     if (Math.random() < 0.5) {
-      document.querySelector("link[href='/assets/fnf/1.png']").href = "/assets/fnf/2.png";
+      document.querySelector("link[href='{{ site.baseurl }}/assets/fnf/1.png']").href = "{{ site.baseurl }}/assets/fnf/2.png";
     }
   </script>
 

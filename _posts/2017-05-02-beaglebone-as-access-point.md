@@ -98,7 +98,7 @@ Then, reboot the system (`reboot`) and re-run `iwconfig`. This time, you should 
 
 Furthermore, if you check the available WiFi networks on any other device, you should see one with the SSID you specified:
 
-![WiFi Networks](/assets/beaglebone/WiFi.png)
+![WiFi Networks]({{ site.baseurl }}/assets/beaglebone/WiFi.png)
 
 ## DHCP
 
@@ -168,8 +168,8 @@ With this, you should be able to connect to the WiFi network over any device, en
 
 After everything your beaglebone should look something like this:
 
-![beaglebone](/assets/beaglebone/cables_annotated.png)
+![beaglebone]({{ site.baseurl }}/assets/beaglebone/cables_annotated.png)
 
 I cut some holes in an appropriately-sized box and stuck the beaglebone in it because the LEDs were too bright. Then I stuck it under my bed and vowed to not mess with it for as long as possible:
 
-![under bed](/assets/beaglebone/box.JPG)
+![under bed]({{ site.baseurl }}/assets/beaglebone/box.JPG)
